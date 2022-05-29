@@ -235,11 +235,56 @@ body {
     .search-input{
         width: 100%;
     }
+    .countryMode {
+        position: fixed;
+        top: 5%;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+    }
+    .Modal {
+        flex-direction: column;
+        justify-content: none;
+    }
+    .firstModal {
+        max-width: 100%;
+        height: 40%;
+    }
+    .firstModal img {
+        margin-top: 15%;
+    }
+    .secondModal {
+        width: 100%;
+        margin-left: 0%;
+        top: 0%;
+    }
+    .secondModal h1 {
+        margin-bottom: 20px;
+    }
+    .back {
+        top: 5%;
+    }
+    .Modalinfo {
+        flex-direction: column;
+        width: 100%;
+        top: 0%;
+        margin: 0%;
+    }
+    .modalText {
+        margin-bottom: 30px;
+        line-height: 20px;
+    }
+    .modalTexttwo {
+        line-height: 20px;
+    }
 }
 @media screen and (max-width: 540px) {
     .placeObjects {
         width: 80%;
 
+    }
+    .Modal {
+        justify-content: none;
     }
     #navbar {
         padding: 20px 0px 20px 20px;
@@ -247,5 +292,33 @@ body {
     .search{
         padding: 0px 30px;
         top: 55px;
+    }
+    .countryMode {
+        top: 10%;
+    }
+    .secondModal h1 {
+        margin-bottom: 10px;
+    }
+    .firstModal {
+        height: 40%;
+    }
+    .firstModal img {
+        margin-top: 5%;
+    }
+    .back {
+        top: 0%;
+    }
+    .Modalinfo {
+        height: 50%;
+        width: 100%;
+        top: 0%;
+        margin: 0%;
+    }
+    .modalText {
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+    .modalTexttwo {
+        line-height: 20px;
     }
 }
